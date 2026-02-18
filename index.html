@@ -2,237 +2,163 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="common/reset.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <title>TAIWAN</title>
+    <title>Design House Renovations</title>
 </head>
 <body>
-
-    <!-- 共通レイアウトheader部分、コピペして文字や画像、class名を差し替えて利用 -->
-  <header>
-  	<div class="headerInner">
-      <div class="headerTop">
-        <div class="headerTopinner">
-
-    <!-- 画像、class名、alt名を差し替えて利用 -->
-        <img src="images/logo_taiwan.svg" class="headerLogo" alt="ヘッダーロゴ台湾">
-				<div class="menuButton" id="menuBtn">
-					<img src="images/menuopen_icon.png" alt="メニューを開く" class="iconOpen">
-					<img src="images/menuclose_icon.png" alt="メニューを閉じる" class="iconClose">
-				</div>
-        <nav class="drawerMenu">
-          <ul>
-            <!-- 各ページのindex.htmlファイル挿入して利用 -->
-  					<li><a href="index.html">Top</a></li>
-            <li><a href="../taipei/index.html">台北</a></li>
-            <li><a href="../tainan/index.html">台南</a></li>
-            <li><a href="../taichu/index.html">台中</a></li>
-            <li><a href="#">当サイトのポリシー</a></li>
-            <li><a href="#">お問い合わせ</a></li>
-          </ul>
-      	</nav>
-        </div>
-      </div>
-      <div class="headerBottom">
-        <div class="snsLogo">
-          <!-- 画像を差し替えて利用 -->
-          <img src="images/facebook_icon.png" alt="フェイスブックアイコン">
-          <img src="images/instagram_icon.png" alt="インスタグラムアイコン">
-          <img src="images/x_icon.png" alt="Xアイコン">
-        </div>
-          <!-- 画像、class名、alt名を差し替えて利用 -->
-            <img src="images/logo_taiwan.svg" class="mainLogo" alt="メインロゴ台湾">
-        </div>
-      </div>
+    <header>
+        <h1><img src="images/Headerlogo.png" alt="Design House Renovations Logo"></h1>
+        <nav class="gMenu">
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn">
+                <span class="navicon"></span>
+            </label>
+            <ul class="menu">
+                <li><a href="#ConceptArea">コンセプト</a></li>
+                <li><a href="#ServiceArea">サービス</a></li>
+                <li><a href="#WorkflowArea">施工の流れ</a></li>
+                <li><a href="#QuestionArea">よくある質問</a></li>
+                <li><a href="#ContactArea">お問い合わせ</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main>
-			<section class="formosaSection">
-				<div class="formosaInner">
-					<div class="formosaRow rowUpper">
-						<div class="formosaText">
-							<img src="images/taiwan_flag.svg" alt="台湾国旗" class="flagIcon">
-							<h2>Formosa</h2>
-							<p class="subtitle">フォルモサ（麗しの島）</p>
-							<img src="images/borderline_1.png" alt="" class="borderLine lineFormosaTitle">
-						</div>
-						<div class="formosaImage">
-							<img src="images/formosa_photo1.jpg" alt="風景写真1">
-						</div>
-					</div>
-					<div class="formosaRow rowLower">
-						<div class="formosaText">
-						  <div class="description">
-                <img src="images/borderline_2.png" alt="" class="borderLine lineFormosaTop">
-								<p>フォルモサは、十六世紀にポルトガル人がエメラルド色の美しい台湾を見つけて発した賛嘆の言葉です。
-								緑にあふれた台湾の美しい風景が、あなたを桃源郷の世界へといざなってくれるでしょう。</p>
-								<img src="images/borderline_3.png" alt="" class="borderLine lineFormosaBottom">
-							</div>
-						</div>
-						<div class="formosaImage">
-							<img src="images/formosa_photo2.jpg" alt="風景写真2">
-						</div>
-					</div>
-				</div>
-			</section>
-
-      <section class="gallerySection">
-        <div class="galleryInner">
-					<div class="galleryHeader">
-						<h2 class="galleryTitle">
-							<img src="images/gallery.png" alt="Gallery ギャラリー">
-						</h2>
-					</div>
-					<div class="gallerySlider">
-						<ul>
-							<li class="sliderItem"><img src="images/slider1.jpg" alt=""></li>
-							<li class="sliderItem"><img src="images/slider2.jpg" alt=""></li>
-							<li class="sliderItem"><img src="images/slider3.jpg" alt=""></li>
-							<li class="sliderItem"><img src="images/slider4.jpg" alt=""></li>
-							<li class="sliderItem"><img src="images/slider5.jpg" alt=""></li>
-						</ul>
-					<div class="sliderControls">
-						<button class="sliderPrev"></button>
-						<div class="sliderPagination">
-							<span class="dot is-active"></span>
-      				<span class="dot"></span>
-      				<span class="dot"></span>
-      				<span class="dot"></span>
-      				<span class="dot"></span>
-						</div>
-						<button class="sliderNext"></button>
-					</div>
-        </div>
-      </section>
-
-			<section class="travelSection">
-				<div class="travelInner">
-					<div class="travelHeader">
-						<h2 class="travelTitle">
-							<img src="images/travel.png" alt="Travel おすすめスポット">
-						</h2>
-					</div>
-					<div class="travelContent">
-						<div class="travelTextarea">
-							<img src="images/borderline_4.png" alt="" class="borderLine lineTravelTop">
-							<p>
-								訪れた人々を魅了する「美麗島」台湾。そんな
-								台湾の人気スポットを代表する地を3つのエリア
-								でご紹介。様々な風景に誰もが魅了されます。
-							</p>
-							<img src="images/borderline_5.png" alt="" class="borderLine lineTravelBottom">
-						</div>
-						<div class="travelMaparea">
-							<div class="mapWrapper">
-								<img src="images/map.svg" alt="台湾地図" class="baseMap">
-								<a href="../taipei/index.html" class="mapLabel labelTaipei">
-								<img src="images/taipei.svg" alt="台北">
-								</a>
-								<a href="../taichung/index.html" class="mapLabel labelTaichung">
-								<img src="images/taichung.svg" alt="台中">
-								</a>
-								<a href="../tainan/index.html" class="mapLabel labelTainan">
-								<img src="images/tainan.svg" alt="台南">
-								</a>
-							</div>
-						</div>
-					</div>
-					<img src="images/borderline_6.png" alt="" class="borderLine lineTravelMapBottom">
-				</div>
-			</section>
-
-			<section class="eventSection">
-				<div class="eventInner">
-					<div class="eventHeader">
-						<h2 class="eventTitle">
-							<img src="images/event.png" alt="Event おすすめイベント">
-						</h2>
-					</div>
-					<div class="eventCard">
-						<h3 class="eventItemtitle">台湾ランタンフェスティバル</h3>
-						<div class="eventFlex">
-							<div class="eventImage">
-								<img src="images/lanthanum.jpg" alt="ランタンフェスティバルの様子">
-							</div>
-							<div class="eventText">
-								<p class="eventPeriodHead">開催期間</p>
-                <p class="eventPeriod">春節 旧暦元旦（2024年2月24日〜3月2日予定）</p>
-                <div class="eventDescription">
-									<img src="images/borderline_7.png" alt="" class="borderLine lineLanthanumTop">
-                  <p>春節の風習として「天燈」と呼ばれる紙製のランタンに無病息災などの祈りを書き込み、
-										火種を用いて熱気球と同じ原理で空に飛ばす儀式。吉祥や邪気払いの意味があります。</p>
-									<img src="images/borderline_8.png" alt="" class="borderLine lineLanthanumBottom">
-                </div>
-							</div>
-						</div>
-					</div>
-					<div class="eventCard">
-            <h3 class="eventItemTitle">台北最High新年城<br>カウントダウンパーティー</h3>
-            <div class="eventFlex">
-              <div class="eventImage">
-                <img src="images/countdown.jpg" alt="台北101のカウントダウン花火">
-              </div>
-              <div class="eventText">
-                <p class="eventPeriodHead">開催期間</p>
-                <p class="eventPeriod">12月31日〜1月1日</p>
-                <div class="eventDescription">
-									<img src="images/borderline_9.png" alt="" class="borderLine lineCountdownTop">
-                  <p>台北101では毎年、新年を祝う花火を実施。元旦0時から約3分間、台北101を覆い尽くすように、
-										ビル全体から美しい花火が舞い散ります。世界中から注目されるイベントの一つです。</p>
-									<img src="images/borderline_10.png" alt="" class="borderLine lineCountdownBottom">
-                </div>
-              </div>
+        <p class="Roompic"><img src="images/Room.jpg" alt="部屋の写真"></p>
+        <section id="ConceptArea">
+            <div class="ConceptArea">
+                <h1>CONCEPT</h1>
+                <h2><img src="images/line-1.png">コンセプト<img src="images/line-1.png"></h2>
+                <h3>家族が笑顔になれる場所</h3>
+                <p>家族が集う、温かく居心地のいい空間づくりを目指して、幅広い年代の方に安心して過ごしていただける空間づくりや、お手入れ<br class="sp-br">
+                のしやすい素材を使用したリフォームをご提案いたします。</p>
             </div>
-          </div>
-				</div>
-			</section>
-
-			<section class="infoSection">
-        <div class="infoInner">
-          <div class="infoBox">
-            <h2 class="infoBoxTitle">台湾基本情報</h2>
-            <div class="infoFlex">
-              <div class="infoCol">
-                <dl>
-                  <dt>■正式名称：中華民国・台湾</dt>
-                  <dd>Republic of China, Taiwan</dd>
-                  <dt>■首都：台北</dt>
-                  <dt>■人口：約2,300万人</dt>
-                  <dt>■面積：約3万6,000km²</dt>
-                  <dt>■人種・民族：漢民族、先住民</dt>
-                  <dt>■宗教：仏教、道教、キリスト教、その他</dt>
-                  <dt>■言語：北京語、台湾語</dt>
-                  <dt>■通貨：元（ニュー台湾ドル）</dt>
-                  <dt>■時差：1時間 台湾が正午のとき、日本は午後1時</dt>
-                </dl>
-              </div>
-              <div class="infoCol">
-                <dl>
-                  <dt>■台湾の気候・服装</dt>
-                  <dd>■亜熱帯に属し一年を通して温暖な台湾。しかし北回帰線から南は熱帯で暑く、北部は大陸性気候の影響を受けて冷え込むこともあるなど、地域差を頭に入れて服装の準備を</dd>
-                  <dt>■台湾の祝祭日</dt>
-                  <dd>■正月：1月1日</dd>
-                  <dd>■端午節：6月22日 ■春節：1月20日〜29日</dd>
-                  <dd>■中秋節：9月29日 ■和平記念日：2月28日</dd>
-                  <dd>■国慶節：10月10日 ■清明節：4月5日</dd>
-                </dl>
-              </div>
+        </section>
+        <section id="ServiceArea">
+            <div class="ServiceArea">
+                <h1>SERVICE</h1>
+                <h2><img src="images/line-2.png">サービス<img src="images/line-2.png" ></h2>
+                <div class="Service-list">
+                    <div class="Service-item Bathroom">
+                        <p class="photo"><img src="images/Bath.jpg" alt="浴室の写真" class="room3"></p>
+                        <h3>浴室</h3>
+                            <p class="Service-comment">ご家族が一緒に入れる広めの浴槽や手<br class="sp-br">すり等、安<br class="ap-br">全に配慮しています。</p>
+                            <p class="more"><a href="#">more <img src="images/arrow.png"></a></p>
+                    </div>
+                    <div class="Service-item otherroom">
+                        <p class="photo"><img src="images/Libing.jpg" alt="リビングの写真" class="room3"></p>
+                        <h3>リビング</h3>
+                            <p class="Service-comment">照明や家具の配置等、くつろぎやすい<br class="sp-br">空間づくり<br class="ap-br">を大切にしています。</p>
+                            <p class="more"><a href="#">more <img src="images/arrow.png"> </a></p>
+                    </div>
+                    <div class="Service-item otherroom">
+                        <p class="photo"><img src="images/Kitchen.jpg" alt="キッチンの写真" class="room3"></p>
+                        <h3>キッチン</h3>
+                            <p class="Service-comment">機能性だけでなく、デザイン性にもこ<br class="sp-br">だわってお<br class="ap-br">ります。</p>
+                            <p class="more"><a href="#">more <img src="images/arrow.png"></a></p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
+        <section id="WorkflowArea"> 
+            <div class="WorkflowArea">
+                <h1>FROW</h1>
+                <h2><img src="images/line-3.png">施工の流れ<img src="images/line-3.png"></h2>
+                <ul>
+                    <li class="Character"><p>ご相談</p></li>
+                    <li class="Arrowred"><p><img src="images/arrow(1).png"></p></li>
+                    <li class="Character"><p>現地調査</p></li>
+                    <li class="Arrowred"><p><img src="images/arrow(2).png"></p></li>
+                    <li class="Character"><p>お見積り</p></li>
+                    <li class="Arrowred"><p><img src="images/arrow(3).png"></p></li>
+                    <li class="Character"><p>ご契約</p></li>
+                    <li class="Arrowred"><p><img src="images/arrow(4).png"></p></li>
+                    <li class="Character"><p>施工</p></li>
+                    <li class="Arrowred"><p><img src="images/arrow(5).png"></p></li>
+                    <li class="Character"><p>お引越し</p></li>
+                </ul>
+            </div>
+        </section>
+        <section id="QuestionArea">
+            <div class="QuestionArea">
+                <h1>Q&A</h1>
+                <h2><img src="images/line-4.png"> よくあるご質問<img src="images/line-4.png"></h2>
+                <div class="Estimate">
+                    <p class="Question1"><span class="Qicon">Q.</span>見積もりは無料ですか？</p>
+                    <p class="Answer1"><span class="Aicon">A.</span>はい。お見積りは無料で承っておりま<br class="ap-br">す。ホームページよりお気軽にお問い<br class="ap-br">合わせください。</p>
+                </div>
+                <div class="Reform">
+                    <p class="Question2"><span class="Qicon">Q.</span>普段通り生活をしながらのリフォーム<br class="ap-br">工事は可能ですか？</p>
+                    <p class="Answer2"><span class="Aicon">A.</span>はい。もちろん可能です。工事中の箇<br class="ap-br">所は、何日間か使用できなくなる場合<br class="ap-br">もございますのであ<br class="sp-br">らかじめご了承く<br class="ap-br">ださい。大型リフォームの場合には、<br class="ap-br">仮住まいもお薦めしております。</p>
+                </div>
+            </div>
+        </section>
+        <section id="ContactArea">
+            <div class="ContactArea">
+                <h1>CONTACT</h1>
+                <h2><img src="images/line-5.png"> お問い合わせ<img src="images/line-5.png"></h2>
+                <form action="" method="">
+                <div class="Contactform">
+                    <div class="Contact1">
+                        <p class="ContactLeft">お問い合わせ種別</p>
+                        <p class="Required">必須</p>
+                        <p class="radio radio2"><label><input type="radio" name="inquiry" value="資料請求" checked="checked">資料請求</label></p>
+                        <p class="radio2"><label><input type="radio" name="inquiry" value="ご相談">ご相談</label></p>
+                    </div>
+                    <div class="Contact2">
+                        <p class="ContactLeft">お名前</p>
+                        <p class="Required">必須</p>
+                        <p class="TextArea midium"><input type="text" class="TextArea midium" name="user_name1"></p>
+                    </div>
+                    <div class="Contact3">
+                        <p class="ContactLeft">フリガナ</p>
+                        <p class="Required">必須</p>
+                        <p class="TextArea midium"><input type="text" class="TextArea midium" name="user_name2"></p>
+                    </div>
+                    <div class="Contact4">
+                        <p class="ContactLeft">電話番号</p>
+                        <p class="Required">必須</p>
+                        <p class="TextArea midium"><input type="text" class="TextArea midium" name="tel"></p>
+                    </div>
+                    <div class="Contact5">
+                        <div class="Contact5-1">
+                            <p class="ContactLeft">住所</p>
+                            <p class="Required">必須</p>
+                        </div>
+                        <div class="Contact5-2">
+                            <p class="address1">〒</p>
+                            <p class="TextArea little"><input type="text" class="TextArea little" name="address"></p>
+                        </div>
+                    </div>
+                    <div class="Contact6">
+                        <p class="TextArea large"><input type="text" class="TextArea large" name="address"></p>
+                    </div>
+                    <div class="Contact7">
+                        <p class="ContactLeft">メールアドレス</p>
+                        <p class="Required">必須</p>
+                        <p class="TextArea large"><input type="email" class="TextArea large" name="mail1"> </p>
+                    </div>
+                    <div class="Contact8">
+                        <p class="ContactLeft">メールアドレス(確認用)</p>
+                        <p class="Required">必須</p>
+                        <p class="TextArea large"><input type="email" class="TextArea large" name="mail2"></p>
+                    </div>
+                    <div class="Contact9">
+                        <p class="ContactLeft big">お問い合わせ内容</p>
+                        <p class="TextArea big"><textarea name="Inquiry" rows="6" class="TextArea big"></textarea></p>
+                    </div>
+                    <div class="Send">
+                        <p><input type="submit" value="入力内容を確認する"><img src="images/arrow (6).png"></p>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </section>
+        <a href="#" class="topBtn"><img src="images/pageTop.png" class="topBtn" ></a>
     </main>
-		<div id="pageTop" class="pageTop">
-      <a href="#">
-				<img src="images/arrow_top.png" alt="トップへ戻る" class="arrowIcon">
-			</a>
-    </div>
     <footer>
+        <p>©2023 Design House Renovastions</p>
     </footer>
-		<script src="scripts/script.js"></script>
 </body>
 </html>
